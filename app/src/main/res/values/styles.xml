@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="AlertDialog.AppCompat.Light"></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="TextImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+
+    <style name="TextImageStyle.Jiantou">
+        <item name="android:drawableRight">@mipmap/icon_jiantou</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <!--支付类型Popuwindow-->
+    <style name="AnimBotom">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+
+    <style name="RecyclerItem">
+        <item name="android:foreground">@drawable/selector_recycler_item</item>
+    </style>
+
+    <style name="Custom_Progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

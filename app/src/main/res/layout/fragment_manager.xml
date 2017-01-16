@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/line_layout"
+    android:orientation="vertical"
+    android:background="#F0F0F0"
+    android:showDividers="middle|end">
+
+    <TextView
+        android:id="@+id/safePsw"
+        style="@style/TextImageStyle.Jiantou"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@mipmap/icon_password"
+        android:text="安全密码" />
+
+    <TextView
+        android:id="@+id/paySet"
+        style="@style/TextImageStyle.Jiantou"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@mipmap/icon_pay_setting"
+        android:text="支付设置" />
+
+    <TextView
+        android:id="@+id/exportBill"
+        style="@style/TextImageStyle.Jiantou"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@mipmap/icon_export"
+        android:text="导出账单" />
+
+    <TextView
+        android:id="@+id/userInfo"
+        style="@style/TextImageStyle.Jiantou"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@mipmap/icon_userinfo"
+        android:text="用户信息" />
+
+    <TextView
+        android:id="@+id/yimafu"
+        style="@style/TextImageStyle.Jiantou"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@mipmap/icon_userinfo"
+        android:text="付款二维码" />
+
+    <TextView
+        android:id="@+id/user"
+        style="@style/TextImageStyle.Jiantou"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@mipmap/icon_new_user"
+        android:text="使用手册" />
+</LinearLayout>

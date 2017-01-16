@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_balck">#000000</color>
+    <color name="color_gray">#C0C0C0</color>
+    <color name="color_gray_smal">#F0F0F0</color>
+    <color name="color_determine_normal">#5DB2FC</color>
+    <color name="color_determine_pressed">#6FB7FA</color>
+
+    <color name="textColor_selected">#ffed6c00</color>
+
+    <color name="color_num_normal">#FCFCFC</color>
+    <color name="color_num">#E2E2E2</color>
+    <color name="colorClear">#EAA224</color>
+    <color name="colorNormalClear">#FFA600</color>
+
+    <!--波纹-->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half_1">#10000000</color>
+</resources>
